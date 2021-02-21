@@ -1,0 +1,83 @@
+.contacts {
+    padding-bottom: 120px;
+
+    // .contacts__body
+
+    &__body {
+        display: flex;
+    }
+
+    // .contacts__text
+
+    &__text {
+        flex: 0 0 50%;
+    }
+
+    // .contacts__title
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 66px;
+    }
+
+    // .contacts__desc
+
+    &__desc {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        color: #8491A0;;
+    }
+
+    // .contacts__form
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 50%;
+    }
+
+    // .contacts__label
+
+    &__label {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 8px;
+    }
+
+    // .contacts__input
+
+    &__input {
+        background: #181823;
+        padding: 15px;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+
+    // .contacts__textarea
+
+    &__textarea {
+        background: #181823;
+        padding: 15px;
+        color: #ffffff;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    // .contacts__btn
+
+    &__btn {
+        background-color: #5221E6;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding: 24px 0px;
+        font-family: Sun,sans-serif;
+    }
+}
